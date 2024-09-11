@@ -1,1 +1,1 @@
-# Github-Profile-Finder
+# Github Account Finder
