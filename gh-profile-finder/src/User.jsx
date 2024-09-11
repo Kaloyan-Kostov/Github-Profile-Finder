@@ -22,7 +22,7 @@ const DesignOne = ({ user }) => (
       </div>
       <a
         href={user.html_url}
-        className="mt-4 inline-block text-blue-600 hover:underline transform hover:scale-105 transition "
+        className="mt-4 inline-block text-orange-600 hover:underline transform hover:scale-105 hover:text-yellow-400 transition"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -33,7 +33,7 @@ const DesignOne = ({ user }) => (
 );
 
 const DesignTwo = ({ user }) => (
-  <div className="relative p-8 bg-gray-900 text-white rounded-xl shadow-lg max-w-sm mx-auto">
+  <div className="relative p-8 bg-gray-900 text-white rounded-xl shadow-lg max-w-sm mx-auto ">
     <div className="flex justify-center">
       <img
         src={user.avatar_url}
@@ -58,7 +58,7 @@ const DesignTwo = ({ user }) => (
     <div className="mt-6 flex justify-center">
       <a
         href={user.html_url}
-        className="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transform hover:scale-105 transition "
+        className="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transform hover:scale-105 transition bg-gradient-to-r from-yellow-400 to-orange-500"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -91,7 +91,7 @@ const DesignThree = ({ user }) => (
       </div>
       <a
         href={user.html_url}
-        className="mt-4 inline-block bg-purple-500 text-white px-4 py-2 rounded-lg hover:bg-purple-600 transform hover:scale-105 transition "
+        className="mt-4 inline-block bg-purple-500 text-white px-4 py-2 rounded-lg hover:bg-purple-600 transform hover:scale-105 transition bg-gradient-to-r to-purple-500 from-gray-400 "
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -124,7 +124,8 @@ const DesignFour = ({ user }) => (
       </p>
       <a
         href={user.html_url}
-        className="mt-6 block text-center bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transform hover:scale-105 transition "
+        className="mt-6 block text-center text-white px-4 py-2 rounded-lg hover:bg-blue-600 transform hover:scale-105 transition bg-gradient-to-r to-green-500 from-cyan-600,
+"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -158,7 +159,7 @@ const DesignFive = ({ user }) => (
       </div>
       <a
         href={user.html_url}
-        className="mt-6 inline-block bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transform hover:scale-105 transition "
+        className="mt-6 inline-block bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transform hover:scale-105 transition bg-gradient-to-r from-purple-400 to-pink-500"
         target="_blank"
         rel="noopener noreferrer"
       >
